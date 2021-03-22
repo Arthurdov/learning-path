@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blink</title>
+    <style>
+        body{
+            background: linear-gradient(to right,);
+        }
+        h1{
+            text-align: center;
+            font-size: 10em;
+            font-family: cursive;
+            color: greenyellow;
+        }
+    </style>
+    <script type="text/javascript">
+    function blink(){
+        let body = document.querySelector("body");
+        if(body.style.visibility === "hidden"){
+    body.style.visibility = "visible";
+}
+else
+{
+
+    body.style.visibility = "hidden";
+}
+}
+// Blink ever 500ms
+window.setInterval(blink, 500);
+
+    </script>
+
+</head>
+<body>
+    <h1>jesus is the lord and saviour of all</h1>
+    <img src="grip.jpg" alt="grip">
+</body>
+</html>
